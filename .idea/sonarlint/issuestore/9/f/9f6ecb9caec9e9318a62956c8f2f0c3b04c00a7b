@@ -1,0 +1,18 @@
+
+I
+java:S1481",Remove this unused "strArr2" local variable.(úØÇä8Ó»‰ÛÙ.
+O
+java:S1481"-Remove this unused "emptyArr" local variable.(å»¢Ëûÿÿÿÿ8¯å†ÛÙ.
+B
+java:S2129" Remove this "String" constructor(ªøÖúúÿÿÿÿ8¯å†ÛÙ.
+\
+java:S1854":Remove this useless assignment to local variable "strArr".(Ãüë¿ıÿÿÿÿ8ù¸¿ÚÙ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸«ğÎüÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Áß‡Ü8Åğ»ÚÙ.
+^
+java:S1854"<Remove this useless assignment to local variable "emptyArr".(å»¢Ëûÿÿÿÿ8¯å†ÛÙ.
+]	java:S125"<This block of commented-out lines of code should be removed.(ÄÔ‘¿úÿÿÿÿ8Í¢áÚÙ.
+X
+java:S1854";Remove this useless assignment to local variable "strArr2".(úØÇä8¦¡‰ÛÙ.
+M
+java:S1481"+Remove this unused "strArr" local variable.(Ãüë¿ıÿÿÿÿ8ù¸¿ÚÙ.

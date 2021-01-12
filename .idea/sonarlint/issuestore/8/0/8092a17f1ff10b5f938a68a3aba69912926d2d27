@@ -1,0 +1,10 @@
+
+Y
+java:S1854"7Remove this useless assignment to local variable "res".(ΣΆτ—όÿÿÿÿ8Β‹β.
+z	java:S1354"YReduce the total number of break and continue statements in this loop to use at most one.(ΒήΔΆψÿÿÿÿ8φ§‹β.
+u	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(²Μ©Ϊ8φ§‹β.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ε«…ÿÿÿÿÿ
+o
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Κάζο8φ§‹β.
+J
+java:S1481"(Remove this unused "res" local variable.(ΣΆτ—όÿÿÿÿ8Β‹β.

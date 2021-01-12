@@ -1,0 +1,8 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ò»Ì¾
+F
+java:S1481")Remove this unused "stop" local variable.(èü†8´³Ğıà.
+d
+java:S2259:"BA "NullPointerException" could be thrown; "node" is nullable here.(‘¬Ñıÿÿÿÿ8‡ÿ±Âà.
+U
+java:S1854"8Remove this useless assignment to local variable "head".(º–ïå8´³Ğıà.

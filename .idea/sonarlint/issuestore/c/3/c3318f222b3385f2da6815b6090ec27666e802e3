@@ -1,0 +1,18 @@
+
+r	java:S117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¥ë¯øÿÿÿÿ8ëí´ÎÖ.
+q
+java:S1104v"OMake len a static final constant or non-public and provide accessors if needed.(ÊÊÒ´ûÿÿÿÿ8ëí´ÎÖ.
+r	java:S117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¥ë¯øÿÿÿÿ8ëí´ÎÖ.
+r	java:S117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¥ë¯øÿÿÿÿ8ëí´ÎÖ.
+r
+java:S1104"PMake size a static final constant or non-public and provide accessors if needed.(õ˜óøÿÿÿÿ8ÌªïÊÖ.
+r
+java:S1104"UMake unionSize a static final constant or non-public and provide accessors if needed.(á„àÀ8ÌªïÊÖ.
+s
+java:S1104"QMake union a static final constant or non-public and provide accessors if needed.(Ï±Î–ûÿÿÿÿ8ÌªïÊÖ.
+o
+java:S1104u"MMake y a static final constant or non-public and provide accessors if needed.(ÔçÛşÿÿÿÿ8åûÙÊÖ.
+o
+java:S1104t"MMake x a static final constant or non-public and provide accessors if needed.(±Šõ¶ûÿÿÿÿ8åûÙÊÖ.
+X	java:S125T"<This block of commented-out lines of code should be removed.(éÚûÃ8—ÇŠÏÖ.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶›ø

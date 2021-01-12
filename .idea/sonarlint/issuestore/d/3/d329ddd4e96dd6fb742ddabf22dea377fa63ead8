@@ -1,0 +1,8 @@
+
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÖÝÐÃ8ç¨½ØÚ.
+r
+java:S1149("PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(±Šû¼þÿÿÿÿ8ÊÚ¾ØÚ.
+p
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(¿Ý‰®8ç¨½ØÚ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…ÐÈ§

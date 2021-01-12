@@ -1,0 +1,7 @@
+
+s	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ΔK8ω‰΄ζ.
+s	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ΔK8²άψ³ζ.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³΅λόÿÿÿÿ8Τυ±ζ.
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ηµν‘8ªί—΄ζ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚ά¶έ

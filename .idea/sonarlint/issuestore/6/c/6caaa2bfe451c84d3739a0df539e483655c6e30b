@@ -1,0 +1,10 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ãÀ·Ìøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ”åÒ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 50 to the 15 allowed.(áÇ«úÿÿÿÿ
+J
+java:S10661"/Merge this if statement with the enclosing one.(Ô€‚ûÿÿÿÿ
+s	java:S135C"YReduce the total number of break and continue statements in this loop to use at most one.(¥ªÁØıÿÿÿÿ
+I
+java:S1121S".Extract the assignment out of this expression.(Â±ãüÿÿÿÿ

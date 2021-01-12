@@ -1,0 +1,13 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.( ÜÌÃ8¨­ÅÛÛ.
+]	java:S125"<This block of commented-out lines of code should be removed.(¾¯Îôøÿÿÿÿ8ŞÉÀÚÛ.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(Ù©È±8ª¤İÜÛ.
+W
+java:S1854"5Remove this useless assignment to local variable "l".(¦Á¥™øÿÿÿÿ8ÅïáÚÛ.
+`
+java:S1155"">Use isEmpty() to check whether the collection is empty or not.(ƒŸ×Ûıÿÿÿÿ8ÀÒÚÜÛ.
+X	java:S125"<This block of commented-out lines of code should be removed.(šÀ›¥8ÅïáÚÛ.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(ŞñÂÏ8ª¤İÜÛ.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹Œ´r
+H
+java:S1481"&Remove this unused "l" local variable.(¦Á¥™øÿÿÿÿ8ÅïáÚÛ.

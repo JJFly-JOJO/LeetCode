@@ -1,0 +1,21 @@
+
+™
+java:S1130A"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ËÁ²şÿÿÿÿ8¾¶²Û.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Áœ³Û.
+J	java:S108:")Either remove or fill this block of code.(°ñàùÿÿÿÿ8Ü¥Æ²Û.
+
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òëŸğ8¾¶²Û.
+J	java:S108B")Either remove or fill this block of code.(Ÿø°Âıÿÿÿÿ8ŠúÊ²Û.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨˜úüÿÿÿÿ8Áœ³Û.
+c
+java:S2142 "FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Áœ³Û.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ˆç‹’ùÿÿÿÿ8Áœ³Û.
+™
+java:S11309"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Ù¯ ûÿÿÿÿ8¾¶²Û.
+”
+java:S11303"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(³Š«É8¾¶²Û.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ßí‘³Û.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å¸Îüÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ±ı–8ßí‘³Û.

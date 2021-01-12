@@ -1,0 +1,7 @@
+
+H
+java:S1172
+"+Remove this unused method parameter "buf4".(š”Í8ÍëîéÖ.
+V
+java:S3400"9Remove this method and declare a constant for this value.(È¸å8ÍëîéÖ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆ‘ìâüÿÿÿÿ
