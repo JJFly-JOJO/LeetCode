@@ -111,7 +111,6 @@ public class Solution3V2 {
         return union[x] == x ? x : uFind(union[x]);
     }
 
-
     class Edge {
         public int x;
         public int y;
