@@ -1,5 +1,5 @@
 
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(™›κ…όÿÿÿÿ8¤ος’μ.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«ΰψÿÿÿÿ
 a
 java:S4143"DVerify this is the key that was intended; it was already set before.(’οΔ8¥σΰ’μ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«ΰψÿÿÿÿ

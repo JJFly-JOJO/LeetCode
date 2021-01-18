@@ -1,13 +1,3 @@
 
-V
-java:S3400"9Remove this method and declare a constant for this value.(”·³›8ƒ…Ô›é.
-L
-java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8ƒ…Ô›é.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„ß×œúÿÿÿÿ
-J
-java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8ƒ…Ô›é.
-V
-java:S1128"4Remove this unused import 'java.util.PriorityQueue'.(ÆãÑşøÿÿÿÿ8ƒ…Ô›é.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¢ïÇó8Ñåšé.
-H
-java:S1172"&Remove these unused method parameters.(ºá¾Üÿÿÿÿÿ8ƒ…Ô›é.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(˜ºÆçüÿÿÿÿ8Ñåšé.
