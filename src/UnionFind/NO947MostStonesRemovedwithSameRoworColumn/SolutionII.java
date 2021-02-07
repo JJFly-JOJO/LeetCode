@@ -1,4 +1,4 @@
-package UnionFind.NO947;
+package UnionFind.NO947MostStonesRemovedwithSameRoworColumn;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,12 +1,12 @@
 
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö°ªßÿÿÿÿÿ
 s	java:S135*"YReduce the total number of break and continue statements in this loop to use at most one.(œ§“»úÿÿÿÿ
 s	java:S135L"YReduce the total number of break and continue statements in this loop to use at most one.(™ë¡ùÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö°ªßÿÿÿÿÿ
-S	java:S106 "9Replace this use of System.out or System.err by a logger.(àœŞùÿÿÿÿ
-<
-java:S11688"&Return an empty array instead of null.(¥¹ï
 m
 java:S3776;"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(ªÖ¸Âşÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(àœŞùÿÿÿÿ
 V	java:S125>"<This block of commented-out lines of code should be removed.(ÏªàÜÿÿÿÿÿ
+<
+java:S11688"&Return an empty array instead of null.(¥¹ï
 P
 java:S1119C";Refactor the code to remove this label and the need for it.(­áÒ1

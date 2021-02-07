@@ -10,23 +10,30 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class Foo {
 
-    public static void main(String[] args) {
-        Foo f=new Foo();
-        Thread t1=new Thread(() -> {
+    private AtomicInteger firstToSecond = new AtomicInteger(0);
+    private AtomicInteger secondToThird = new AtomicInteger(0);
+
+    public Foo() {
+
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        FooIII f = new FooIII();
+        Thread t1 = new Thread(() -> {
             try {
                 f.first(() -> System.out.println("1"));
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         });
-        Thread t2=new Thread(() -> {
+        Thread t2 = new Thread(() -> {
             try {
                 f.second(() -> System.out.println("2"));
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         });
-        Thread t3=new Thread(() -> {
+        Thread t3 = new Thread(() -> {
             try {
                 f.third(() -> System.out.println("3"));
             } catch (InterruptedException e) {
@@ -34,17 +41,10 @@ public class Foo {
             }
         });
 
-        t3.start();
         t2.start();
         t1.start();
-
-    }
-
-    private AtomicInteger firstToSecond = new AtomicInteger(0);
-
-    private AtomicInteger secondToThird = new AtomicInteger(0);
-
-    public Foo() {
+        Thread.sleep(1000);
+        t3.start();
 
     }
 

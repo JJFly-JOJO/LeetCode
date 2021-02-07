@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author zzj
  * @version 1.0
  * @date 2020/11/11 16:58
- * @description
+ * @description -----------使用ReetrantLock以及Condition实现锁-------------
  */
 public class FooIII {
 
@@ -28,17 +28,40 @@ public class FooIII {
     public void first(Runnable printFirst) throws InterruptedException {
         rLock.lock();
         try {
+            while (num != 1) {
+                c1.await();
+            }
             printFirst.run();
+            num = 2;
+            c2.signal();
         } finally {
             rLock.unlock();
         }
     }
 
     public void second(Runnable printSecond) throws InterruptedException {
-        printSecond.run();
+        rLock.lock();
+        try {
+            while (num != 2) {
+                c2.await();
+            }
+            printSecond.run();
+            num = 3;
+            c3.signal();
+        } finally {
+            rLock.unlock();
+        }
     }
 
     public void third(Runnable printThird) throws InterruptedException {
-        printThird.run();
+        rLock.lock();
+        try {
+            while (num != 3) {
+                c3.await();
+            }
+            printThird.run();
+        } finally {
+            rLock.unlock();
+        }
     }
 }

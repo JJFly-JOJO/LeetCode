@@ -12,6 +12,7 @@ public class Solution {
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(new Solution().findRedundantDirectedConnection(new int[][]{{4, 1}, {4, 5}, {2, 4}, {5, 3}, {2, 1}})));
+
     }
 
     public int[] findRedundantDirectedConnection(int[][] edges) {
