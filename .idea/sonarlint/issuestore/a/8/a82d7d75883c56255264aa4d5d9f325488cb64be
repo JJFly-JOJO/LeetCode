@@ -1,5 +1,5 @@
 
-t	java:S1274"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8¶þ÷ÓÛ.
 n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹Œ´r
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹™©¤ýÿÿÿÿ8²¶ÍÓÛ.
+t	java:S1274"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8¶þ÷ÓÛ.
 t	java:S127="XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8¸­¢ÔÛ.

@@ -14,7 +14,7 @@ public class Solution3V2 {
     }
 
     public static void test() {
-        System.out.println("test");
+        System.out.println("Test");
     }
 
     public int furthestBuilding(int[] heights, int bricks, int ladders) {

@@ -1,9 +1,9 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´Ûöª˝ˇˇˇˇ
 k
 java:S1149 "PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(—÷ŸÉ˝ˇˇˇˇ
+>	java:S1087")Either remove or fill this block of code.(Ê”å≤
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´Ûöª˝ˇˇˇˇ
+>	java:S1080")Either remove or fill this block of code.(›Ÿ„˚
 S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù‡Æﬂ¸ˇˇˇˇ
 h
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(§Ωâ≥
->	java:S1080")Either remove or fill this block of code.(›Ÿ„˚
->	java:S1087")Either remove or fill this block of code.(Ê”å≤

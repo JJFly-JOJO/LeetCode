@@ -1,19 +1,19 @@
 
+K
+java:S1481")Remove this unused "list" local variable.(¤Êí…ýÿÿÿÿ8ÍÕí·î.
+[
+java:S2121"9Remove this "substring" call; it has predictable results.(Ðº¼Äþÿÿÿÿ8ðô“¹î.
+V
+java:S1854"9Remove this useless assignment to local variable "chars".(‡â½¦8¡×Ò¹î.
 n
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¥…˜'8ñò¸î.
-T	java:S106"9Replace this use of System.out or System.err by a logger.(ö²¤!8ð×©¹î.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÖ Ð
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹“Š„ûÿÿÿÿ8ª”¹î.
 ]	java:S125>"<This block of commented-out lines of code should be removed.(ÆÄÕãùÿÿÿÿ8Ö¡ðºî.
 Z
 java:S1854"8Remove this useless assignment to local variable "list".(¤Êí…ýÿÿÿÿ8ÍÕí·î.
-G
-java:S1481"*Remove this unused "chars" local variable.(‡â½¦8¡×Ò¹î.
-V
-java:S1854"9Remove this useless assignment to local variable "chars".(‡â½¦8¡×Ò¹î.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ö²¤!8ð×©¹î.
 …
 java:S3039"cRefactor this "substring" call; it will result in an "StringIndexOutOfBounds" exception at runtime.(Ðº¼Äþÿÿÿÿ8ðô“¹î.
-[
-java:S2121"9Remove this "substring" call; it has predictable results.(Ðº¼Äþÿÿÿÿ8ðô“¹î.
-K
-java:S1481")Remove this unused "list" local variable.(¤Êí…ýÿÿÿÿ8ÍÕí·î.
+G
+java:S1481"*Remove this unused "chars" local variable.(‡â½¦8¡×Ò¹î.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹“Š„ûÿÿÿÿ8ª”¹î.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÖ Ð
