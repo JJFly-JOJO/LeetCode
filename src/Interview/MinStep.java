@@ -9,7 +9,7 @@ package Interview;
 public class MinStep {
 
     public static void main(String[] args) {
-        System.out.println(new MinStep().getMinStep(4, 5));
+        System.out.println(new MinStep().getMinStep(555, 666));
     }
 
     public int getMinStep(int x, int y) {
