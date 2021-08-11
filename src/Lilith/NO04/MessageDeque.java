@@ -1,47 +1,57 @@
 package Lilith.NO04;
 
+import java.util.ArrayList;
+
 /**
  * @author zzj
  * @version 1.0
  * @date 2021/8/11 8:43 下午
  * @description
  */
-public class MessageDeque {
+public class MessageDeque<E> {
 
-    private Object lock = new Object();
+    private final Object lock = new Object();
 
-    private volatile int stok = 0;
+    private volatile int stockIdx = 0;
+
+    private E[] stoks;
 
     private int MAX_CNT;
 
     MessageDeque(int maxCnt) {
         MAX_CNT = maxCnt;
+        stoks = (E[]) new Object[maxCnt];
     }
 
-    public void addMsg(int cnt) {
+    public void addMsg(E e) {
         synchronized (lock) {
-            while (stok>=MAX_CNT){
+            while (stockIdx >= MAX_CNT) {
                 try {
                     lock.wait();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+                } catch (InterruptedException ex) {
+                    ex.printStackTrace();
                 }
             }
+            stoks[stockIdx++] = e;
+            lock.notifyAll();
         }
-        stok+=cnt;
-        lock.notifyAll();
+
     }
 
-    public void saleMsg(int cnt){
-        synchronized (lock){
-            while (stok<cnt){
+    public E saleMsg() {
+        E msg;
+        synchronized (lock) {
+            while (stockIdx <= 0) {
                 try {
                     lock.wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
+            msg = stoks[--stockIdx];
+            lock.notifyAll();
         }
+        return msg;
     }
 
 }
